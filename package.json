@@ -4,7 +4,8 @@
   "description": "A simple bot for my friends discord server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
   },
   "author": "Joseph Capocci",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "axios": "^0.21.1",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
     "node": "^16.5.0"
   }
 }

@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 module.exports = async function commandHandler(msg) {
   const prefix = "!";
   if (msg.channel.id === process.env.CHANNELID) {
