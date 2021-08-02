@@ -10,5 +10,6 @@ client.once('ready', () => {
 
 client.on('message', commandHanlder);
 
+
 // Must be the last line
 client.login(token);
