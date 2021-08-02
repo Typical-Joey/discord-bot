@@ -1,7 +1,7 @@
 require('dotenv').config();
 const Discord = require('discord.js');
 
-const serverList = new Discord.MessageEmbed()
+const serverListEmbed = new Discord.MessageEmbed()
   .setColor('#0099ff')
   .setTitle('Server IP\'s')
   .addFields(
@@ -10,5 +10,5 @@ const serverList = new Discord.MessageEmbed()
   );
 
 module.exports = function(msg) {
-  msg.channel.send(serverList);
+  msg.channel.send(serverListEmbed);
 };
